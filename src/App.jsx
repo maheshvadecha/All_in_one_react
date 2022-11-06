@@ -1,11 +1,10 @@
-import './App.css';
-import SearchBar from './components/AddRemoveSearchFilter/SearchBar/SearchBar';
+import ArrayOperation from "./General/Array_opetation/ArrayOperation";
 
 function App() {
 	return (
-		<div className="App">
-			<SearchBar />
-		</div>
+		<>
+		  <ArrayOperation />
+		</>
 	);
 }
 
